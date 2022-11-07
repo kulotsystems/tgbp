@@ -50,7 +50,7 @@
                 <tr>
                     <th>Mode</th>
                     <td><?= $_POST['mode'] ?></td>
-                    <td align="right"><?= number_format($_POST['mode_price']) ?></td>
+                    <td align="right"><?= number_format($_POST['mode_price'], 2) ?></td>
                 </tr>
                 <tr>
                     <th>Item</th>
