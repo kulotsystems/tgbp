@@ -1,6 +1,6 @@
 ## TGBP
 
-Business Product Ordering Demo using Web Forms in HTML and PHP.
+Product Ordering Demo using Web Forms in HTML and PHP.
 
 *Turingan, Galunggong, Bangus, Pusit... Bakal na kamo... Sana ol!*
 
