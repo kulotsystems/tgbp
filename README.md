@@ -6,7 +6,7 @@ Practical demo on Web Forms using HTML and PHP.
 
 ### Dev Setup
 1. Clone or download this to your `htdocs` folder.
-2. Access <http://localhost/tgp>.
+2. Access <http://localhost/tgbp>.
 
 ### Demo
 Access <https://www.kulotsystems.tech/demo/tgbp>.

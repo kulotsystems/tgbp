@@ -40,12 +40,12 @@
                 <label class="text-secondary fw-bold">Mode:</label>
                 <br>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" id="male" name="mode" value="Pickup" checked>
-                    <label for="male" class="form-check-label">Pickup</label>
+                    <input type="radio" class="form-check-input" id="pickup" name="mode" value="Pickup" checked>
+                    <label for="pickup" class="form-check-label">Pickup</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input type="radio" class="form-check-input" id="female" name="mode" value="Delivery">
-                    <label for="female" class="form-check-label">Delivery</label>
+                    <input type="radio" class="form-check-input" id="delivery" name="mode" value="Delivery">
+                    <label for="delivery" class="form-check-label">Delivery</label>
                 </div>
             </div>
 
