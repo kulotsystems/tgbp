@@ -34,21 +34,19 @@
         <table class="table table-bordered">
             <thead>
                 <tr>
+                    <th>Customer</th>
+                    <td colspan="2"><?= $_POST['full-name'] ?></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td colspan="2"><?= $_POST['address'] ?></td>
+                </tr>
+                <tr>
                     <th colspan="2"></th>
                     <th class="text-center">Amount</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th>Customer</th>
-                    <td><?= $_POST['full-name'] ?></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Address</th>
-                    <td><?= $_POST['address'] ?></td>
-                    <td></td>
-                </tr>
                 <tr>
                     <th>Mode</th>
                     <td><?= $_POST['mode'] ?></td>
