@@ -64,7 +64,7 @@
                     </div>
 
                     <!-- Kilograms -->
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 mt-3 mt-sm-0">
                         <label class="text-secondary fw-bold" for="full-name">Kilograms:</label>
                         <input type="number" class="form-control" id="kilograms" name="kilograms" value="1" min="1" max="20">
                     </div>
@@ -74,17 +74,17 @@
 
             <!-- Preparation -->
             <div class="mb-3">
-                <label class="text-secondary fw-bold">Preparation:</label>
+                <label class="text-secondary fw-bold mb-2">Preparation:</label>
                 <br>
-                <div class="form-check">
+                <div class="form-check mb-2">
                     <input type="checkbox" class="form-check-input" id="piolo" name="preparations[]" value="Kinuskosan">
                     <label for="piolo" class="form-check-label">Kinuskosan</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check mb-2">
                     <input type="checkbox" class="form-check-input" id="liza" name="preparations[]" value="Binadi">
                     <label for="liza" class="form-check-label">Binadi</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check mb-2">
                     <input type="checkbox" class="form-check-input" id="daniel" name="preparations[]" value="Chopped">
                     <label for="daniel" class="form-check-label">Chopped</label>
                 </div>
