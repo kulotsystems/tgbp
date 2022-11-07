@@ -1,6 +1,6 @@
 ## TGBP
 
-Practical demo on Web Forms using HTML and PHP.
+Practical Demo on Web Forms using HTML and PHP.
 
 *Turingan, Galunggong, Bangus, Pusit... Bakal na kamo... Sana ol!*
 
