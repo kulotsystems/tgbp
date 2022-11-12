@@ -62,16 +62,18 @@
                     <td><b><?= $_POST['kilogram'] ?></b> kg.</td>
                 </tr>
                 <?php
-                    for($i=0; $i<sizeof($_POST['preparations']); $i++) {
-                    $preparation = $_POST['preparations'][$i];
+                    if(isset($_POST['preparations'])) {
+                        for($i=0; $i<sizeof($_POST['preparations']); $i++) {
+                            $preparation = $_POST['preparations'][$i];
                 ?>
-                    <tr>
-                        <?php if($i === 0) { ?>
-                            <th rowspan="<?= sizeof($_POST['preparations']) ?>">Preparations</th>
-                        <?php } ?>
-                        <td><?= $preparation ?></td>
-                        <td align="right"><?= number_format($_POST['preparation_prices'][$i], 2) ?></td>
-                    </tr>
+                            <tr>
+                                <?php if($i === 0) { ?>
+                                    <th rowspan="<?= sizeof($_POST['preparations']) ?>">Preparations</th>
+                                <?php } ?>
+                                <td><?= $preparation ?></td>
+                                <td align="right"><?= number_format($_POST['preparation_prices'][$i], 2) ?></td>
+                            </tr>
+                    <?php } ?>
                 <?php } ?>
             </tbody>
             <tfoot>
